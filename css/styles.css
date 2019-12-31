@@ -121,7 +121,19 @@ header {
 .content-wrap  h2 {
   color: #1F9F81;
 }
-
+.work-experience a {
+  color: #2F3061;
+}
+.work-experience .special {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.work-experience .special:hover {
+  background: rgba(47, 48, 97, 80%);
+}
 
 
 /* Education
