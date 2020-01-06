@@ -56,12 +56,27 @@ h1, h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
-.content-wrap .galery img {
+.galery img {
   border: 1px solid #ddd;
+    box-shadow: 10px 10px grey;
   border-radius: 4px;
-  padding: 5px;
-  width: 150px; 
+  padding: 10px;
+  width: 500px;
+    margin:25px 28px;
+
 }
+.galery .image-one:hover {
+    opacity: 0.3;
+}
+
+.galery .image-two:hover {
+    opacity: 0.3;
+}
+.galery .image-three:hover {
+    opacity: 0.3;
+}
+
+
 h3 {
   margin-bottom: 0;
 }
